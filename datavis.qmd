@@ -1,0 +1,33 @@
+---
+title: "Data Visualization"
+---
+
+## Workforce Management: Roster Allocation Dashboard
+
+In my Year 2 module, **Introduction to Software Engineering**, my team and I developed a system to assist managers in sorting workload details and managing staff shifts. The core of this system is a data-driven dashboard that provides a clear overview of staff allocation and working hours.
+
+### 1. The Visualization
+![Manager Sorting Workload Dashboard](images/datavis.png){width=100% .border-shadow}
+
+---
+
+### 2. Content Overview (What was visualized?)
+This dashboard encodes several key **quantitative variables** to help a manager make informed decisions:
+* **Allocated Work Hours (Numerical):** Represented by the height of the bars in the "Workload Visual" and detailed in the data table.
+* **Staff Totals and Shift Counts (Numerical):** Aggregated metrics shown at the top (e.g., 128 Total Staff, 580 Shifts) to provide a high-level summary of the week.
+* **Workload Comparison (Ranked):** The "Top 3 Lowest Staff WH" panel identifies workers with the least hours (e.g., James Mulligan at 8.0h) to highlight potential underutilization.
+
+### 3. The Story & Rationale
+**The Task:** The primary challenge for managers in this project was avoiding burnout while ensuring all shifts were covered. I was responsible for designing the visualization that identified "at-risk" rosters where hours were distributed unevenly.
+
+**The Rationale behind the Visualization:**
+* **Bar Chart for Comparison:** I chose a **Bar Chart** for the "Workload Visual" because it allows for an immediate comparison of hours across different employees (like John Sam vs. James Mulligan).
+* **Sorted Data Table:** Below the graph, I implemented a searchable and sortable table. This allows the manager to move from a high-level visual "trend" to specific **quantitative details**, such as checking certifications before reallocating a shift.
+* **Color and Layout:** I used a clean, high-contrast blue for the bars to ensure the quantitative data stands out against the neutral background, reducing cognitive load for the manager during busy roster periods.
+
+---
+
+### 4. Technical Implementation
+1.  **Data Extraction:** The dashboard fetches data from a **SQL database** containing staff IDs, roles, and scheduled shifts.
+2.  **Processing:** We used backend logic to calculate the `Allocated Work Hours` by summing the duration of all assigned shifts in the `Roster Draft`.
+3.  **Frontend Rendering:** The visualization was built to be interactive, allowing managers to sort by `Location` or `Allocated Work Hours` to quickly find data outliers.

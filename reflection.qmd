@@ -1,0 +1,13 @@
+---
+title: "Reflection on the use of GenAI"
+---
+
+## My Experience with Generative AI
+
+As part of this assessment for SIT, I only utilize ChatGPT to generate paragraph texts and give CSS code suggestions to assist in the development of my Quarto website. As I do not face any difficulties in coding this assignment, no further codes or suggestions were generated using GenAI.
+
+## Challenges
+As my account was not approved for the student and copilot yet, I was unable to have more tools to assist me in this assessment. However, I was still able to complete the assignment using my own knowledge and skills.
+
+### Final Thoughts
+While GenAI is a powerful assistant, this assessment taught me that **human oversight is vital**. The AI provided the tools, but I had to provide the context, the data visualization story, and the verification to ensure the final product was accurate and representative of my work.

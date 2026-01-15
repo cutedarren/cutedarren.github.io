@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Darren's Website"
+  favicon: favicon.png
+  navbar:
+    logo: logo.png
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Internship Experience"
+        href: internship.qmd
+      - text: "Data Visualization"
+        href: datavis.qmd
+      - text: "Reflection"
+        href: reflection.qmd
+      
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    toc-location: left
+
+
+
