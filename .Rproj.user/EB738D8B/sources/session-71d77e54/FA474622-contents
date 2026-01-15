@@ -1,0 +1,19 @@
+---
+title: "Welcome to My Portfolio"
+---
+
+# Hello, I'm Darren Heng Yin Hao!
+
+::: {.home-flex}
+![](images/profilepic.jpg){.home-image width="200px"}
+
+<div>
+I am a student at the **Singapore Institute of Technology (SIT)**, passionate about the intersection of coding and finance. This photo represents my keen interest in AI and modern technology.
+
+Outside of school, I enjoy photography and sports. This website serves as a collection of my academic journey and technical projects.
+</div>
+:::
+
+### My Favourite Video
+{{< video https://www.youtube.com/watch?v=rphrFDf00mk width="600" height="400" >}}
+*This is my favourite video, providing great insights into the tools I use for this project.*

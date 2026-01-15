@@ -1,0 +1,27 @@
+---
+title: "Internship Experience"
+---
+
+::: {.internship-container .clearfix}
+
+## Data Analyst Intern | ST United
+**Duration:** 4 Months (Year 1)
+
+![](images/internship.png){.profile-img width="150px"}
+
+During my first year of university, I completed a four-month internship at **ST United**. This experience allowed me to bridge the gap between academic theory and industry practice, specifically in the realms of data engineering and business intelligence.
+
+While my primary focus was on data, I also expanded my technical stack by learning **ReactJS** to understand how data is presented in modern web applications.
+
+### Key Responsibilities & Learning Outcomes
+
+* **Data Collection & Management**
+    * Extracted and integrated data from diverse sources including **SQL** and **NoSQL**.
+* **Advanced Analytics**
+    * Utilized **Python (Pandas, NumPy)** and big data tools like **Spark** and **Hadoop**.
+* **Visualization & Reporting**
+    * Created interactive dashboards using **Power BI** and **Tableau**.
+
+:::
+
+> "This internship provided me the coding experience I need."

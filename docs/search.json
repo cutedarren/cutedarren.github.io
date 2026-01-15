@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "reflection.html",
+    "href": "reflection.html",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "As part of this assessment for SIT, I only utilize ChatGPT to generate paragraph texts and give CSS code suggestions to assist in the development of my Quarto website. As I do not face any difficulties in coding this assignment, no further codes or suggestions were generated using GenAI."
+  },
+  {
+    "objectID": "reflection.html#my-experience-with-generative-ai",
+    "href": "reflection.html#my-experience-with-generative-ai",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "As part of this assessment for SIT, I only utilize ChatGPT to generate paragraph texts and give CSS code suggestions to assist in the development of my Quarto website. As I do not face any difficulties in coding this assignment, no further codes or suggestions were generated using GenAI."
+  },
+  {
+    "objectID": "reflection.html#challenges",
+    "href": "reflection.html#challenges",
+    "title": "Reflection on the use of GenAI",
+    "section": "Challenges",
+    "text": "Challenges\nAs my account was not approved for the student and copilot yet, I was unable to have more tools to assist me in this assessment. However, I was still able to complete the assignment using my own knowledge and skills.\n\nFinal Thoughts\nWhile GenAI is a powerful assistant, this assessment taught me that human oversight is vital. The AI provided the tools, but I had to provide the context, the data visualization story, and the verification to ensure the final product was accurate and representative of my work."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to My Portfolio",
+    "section": "",
+    "text": "Hello, I’m Darren Heng Yin Hao!\n\n\n\nI am a student at the Singapore Institute of Technology (SIT), passionate about the intersection of coding and finance. This photo represents my keen interest in AI and modern technology.\nOutside of school, I enjoy photography and sports. This website serves as a collection of my academic journey and technical projects.\n\n\n\nMy Favourite Video\n This is my favourite video, providing great insights into the tools I use for this project."
+  },
+  {
+    "objectID": "datavis.html",
+    "href": "datavis.html",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "In my Year 2 module, Introduction to Software Engineering, my team and I developed a system to assist managers in sorting workload details and managing staff shifts. The core of this system is a data-driven dashboard that provides a clear overview of staff allocation and working hours.\n\n\n\n\n\nManager Sorting Workload Dashboard\n\n\n\n\n\n\nThis dashboard encodes several key quantitative variables to help a manager make informed decisions: * Allocated Work Hours (Numerical): Represented by the height of the bars in the “Workload Visual” and detailed in the data table. * Staff Totals and Shift Counts (Numerical): Aggregated metrics shown at the top (e.g., 128 Total Staff, 580 Shifts) to provide a high-level summary of the week. * Workload Comparison (Ranked): The “Top 3 Lowest Staff WH” panel identifies workers with the least hours (e.g., James Mulligan at 8.0h) to highlight potential underutilization.\n\n\n\nThe Task: The primary challenge for managers in this project was avoiding burnout while ensuring all shifts were covered. I was responsible for designing the visualization that identified “at-risk” rosters where hours were distributed unevenly.\nThe Rationale behind the Visualization: * Bar Chart for Comparison: I chose a Bar Chart for the “Workload Visual” because it allows for an immediate comparison of hours across different employees (like John Sam vs. James Mulligan). * Sorted Data Table: Below the graph, I implemented a searchable and sortable table. This allows the manager to move from a high-level visual “trend” to specific quantitative details, such as checking certifications before reallocating a shift. * Color and Layout: I used a clean, high-contrast blue for the bars to ensure the quantitative data stands out against the neutral background, reducing cognitive load for the manager during busy roster periods.\n\n\n\n\n\nData Extraction: The dashboard fetches data from a SQL database containing staff IDs, roles, and scheduled shifts.\nProcessing: We used backend logic to calculate the Allocated Work Hours by summing the duration of all assigned shifts in the Roster Draft.\nFrontend Rendering: The visualization was built to be interactive, allowing managers to sort by Location or Allocated Work Hours to quickly find data outliers."
+  },
+  {
+    "objectID": "datavis.html#workforce-management-roster-allocation-dashboard",
+    "href": "datavis.html#workforce-management-roster-allocation-dashboard",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "In my Year 2 module, Introduction to Software Engineering, my team and I developed a system to assist managers in sorting workload details and managing staff shifts. The core of this system is a data-driven dashboard that provides a clear overview of staff allocation and working hours.\n\n\n\n\n\nManager Sorting Workload Dashboard\n\n\n\n\n\n\nThis dashboard encodes several key quantitative variables to help a manager make informed decisions: * Allocated Work Hours (Numerical): Represented by the height of the bars in the “Workload Visual” and detailed in the data table. * Staff Totals and Shift Counts (Numerical): Aggregated metrics shown at the top (e.g., 128 Total Staff, 580 Shifts) to provide a high-level summary of the week. * Workload Comparison (Ranked): The “Top 3 Lowest Staff WH” panel identifies workers with the least hours (e.g., James Mulligan at 8.0h) to highlight potential underutilization.\n\n\n\nThe Task: The primary challenge for managers in this project was avoiding burnout while ensuring all shifts were covered. I was responsible for designing the visualization that identified “at-risk” rosters where hours were distributed unevenly.\nThe Rationale behind the Visualization: * Bar Chart for Comparison: I chose a Bar Chart for the “Workload Visual” because it allows for an immediate comparison of hours across different employees (like John Sam vs. James Mulligan). * Sorted Data Table: Below the graph, I implemented a searchable and sortable table. This allows the manager to move from a high-level visual “trend” to specific quantitative details, such as checking certifications before reallocating a shift. * Color and Layout: I used a clean, high-contrast blue for the bars to ensure the quantitative data stands out against the neutral background, reducing cognitive load for the manager during busy roster periods.\n\n\n\n\n\nData Extraction: The dashboard fetches data from a SQL database containing staff IDs, roles, and scheduled shifts.\nProcessing: We used backend logic to calculate the Allocated Work Hours by summing the duration of all assigned shifts in the Roster Draft.\nFrontend Rendering: The visualization was built to be interactive, allowing managers to sort by Location or Allocated Work Hours to quickly find data outliers."
+  },
+  {
+    "objectID": "internship.html",
+    "href": "internship.html",
+    "title": "Internship Experience",
+    "section": "",
+    "text": "Duration: 4 Months (Year 1)\n\nDuring my first year of university, I completed a four-month internship at ST United. This experience allowed me to bridge the gap between academic theory and industry practice, specifically in the realms of data engineering and business intelligence.\nWhile my primary focus was on data, I also expanded my technical stack by learning ReactJS to understand how data is presented in modern web applications.\n\n\n\nData Collection & Management\n\nExtracted and integrated data from diverse sources including SQL and NoSQL.\n\nAdvanced Analytics\n\nUtilized Python (Pandas, NumPy) and big data tools like Spark and Hadoop.\n\nVisualization & Reporting\n\nCreated interactive dashboards using Power BI and Tableau."
+  },
+  {
+    "objectID": "internship.html#data-analyst-intern-st-united",
+    "href": "internship.html#data-analyst-intern-st-united",
+    "title": "Internship Experience",
+    "section": "",
+    "text": "Duration: 4 Months (Year 1)\n\nDuring my first year of university, I completed a four-month internship at ST United. This experience allowed me to bridge the gap between academic theory and industry practice, specifically in the realms of data engineering and business intelligence.\nWhile my primary focus was on data, I also expanded my technical stack by learning ReactJS to understand how data is presented in modern web applications.\n\n\n\nData Collection & Management\n\nExtracted and integrated data from diverse sources including SQL and NoSQL.\n\nAdvanced Analytics\n\nUtilized Python (Pandas, NumPy) and big data tools like Spark and Hadoop.\n\nVisualization & Reporting\n\nCreated interactive dashboards using Power BI and Tableau."
+  }
+]
